@@ -1,11 +1,11 @@
 function myFunction() {
-    var x = document.getElementById("formDataDiri");
-    if (x.style.display === "none") {
-      x.style.display = "block";
-    } else {
-      x.style.display = "none";
-    }
+  var x = document.getElementById("formDataDiri");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
   }
+}
 var inputNama = document.getElementById("messagenama")
 var nama = document.getElementById("nama")
 var inputRole = document.getElementById("messagerole")
@@ -22,11 +22,11 @@ var inputEmail = document.getElementById("messageemail")
 var email = document.getElementById("email")
 
 function saveMessage() {
-    nama.innerHTML = inputNama.value;
-    role.innerHTML = inputRole.value;
-    availability.innerHTML = inputAvailability.value;
-    usia.innerHTML = inputUsia.value;
-    lokasi.innerHTML = inputLokasi.value;
-    yearsexperience.innerHTML = inputYearsexperience.value;
-    email.innerHTML = inputEmail.value;
+  nama.innerHTML = inputNama.value;
+  role.innerHTML = inputRole.value;
+  availability.innerHTML = inputAvailability.value;
+  usia.innerHTML = inputUsia.value;
+  lokasi.innerHTML = inputLokasi.value;
+  yearsexperience.innerHTML = inputYearsexperience.value;
+  email.innerHTML = inputEmail.value;
 }
