@@ -1,5 +1,5 @@
 function myFunction() {
-    var x = document.getElementById("datadiri");
+    var x = document.getElementById("formDataDiri");
     if (x.style.display === "none") {
       x.style.display = "block";
     } else {
@@ -16,7 +16,7 @@ var inputUsia = document.getElementById("messageusia")
 var usia = document.getElementById("usia")
 var inputLokasi = document.getElementById("messagelokasi")
 var lokasi= document.getElementById("lokasi")
-var inputYearsexperience = document.getElementById("messageyeasrsexperience")
+var inputYearsexperience = document.getElementById("messageyearsexperience")
 var yearsexperience = document.getElementById("yearsexperience")
 var inputEmail = document.getElementById("messageemail")
 var email = document.getElementById("email")
