@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome To My Portfolio</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+    
+</head>
+<style>
+    input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 10px 0;
+  box-sizing: border-box;
+}
+
+
+</style>
+<body>
+    <ul>
+        <li><a href="./inventory.html">INVENTORY</a></li>
+        <li><a href="./blog.html">BLOG</a></li>
+        <li><a href="./gallery.html">GALLERY</a></li>
+        <li><a href="./product.html">PRODUCT</a></li>
+        <li><a href="./home.html">HOME</a></li>
+        
+    </ul>
+    <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-12">
+            <img src="images/me.jpg" width="200px" height="200px">
+        </div>
+        <button onclick="myFunction()">Edit</button>
+        <div id="datadiri">
+        </div>
+
+        <button onclick="myFunction()">Resume</button>
+        <div id="datadiri">
+        </div>
+
+        <form>
+        <div id="datadiri">
+        <div id="nama"></div>
+        <p>Nama</p><input type="text" id="messagenama">
+
+        <div id="role"></div>
+        <p>Role</p> <input type="text" id="messagerole">
+
+        <div id="availability"></div>
+        <p>Availability</p> <input type="text" id="messageavailability">
+
+        <div id="usia"></div>
+        <p>Usia</p> <input type="text" id="messageusia">
+
+        <div id="lokasi"></div>
+        <p>Lokasi</p> <input type="text" id="messagelokasi">
+
+        <div id="yearsexperience"></div>
+        <p>Years Experience</p> <input type="text" id="messageyearsexperience">
+
+        <div id="email"></div>
+        <p>Email</p> <input type="text" id="messageemail">
+        </div>  
+        </form>
+        <button id="btnOk" onclick="saveMessage()">Submit</button>
+   
+    <script src="js/script.js"></script>
+
+</body>
+</html>

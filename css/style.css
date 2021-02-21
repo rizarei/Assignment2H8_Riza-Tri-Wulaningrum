@@ -1,0 +1,189 @@
+@media(min-width: 321px) {
+  .selector {
+
+  }
+  @media(max-width: 400px)
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+    
+  .title_work
+    {font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px
+    }
+
+    
+  .title_resume
+    {
+    background-color: #fcfdfd; /* White */
+    border: 2px solid #4CAF50; /* Green */;
+    color: rgb(53, 202, 23);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 100px;
+    margin:5px;
+     }
+
+    {
+    border-radius: 25px;
+    background: #b5ced4;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+    }
+
+  .title_availability
+  {
+  position: absolute;
+  top: 73px;
+  left: 550px;
+  font-weight: bold;
+  line-height: ;
+  }
+
+  .title_fulltime
+  {
+    position: absolute;
+    top: 73px;
+    left: 650px;
+    line-height: ;
+    }
+  .title_usia
+  {
+    position: absolute;
+    top: 93px;
+    left: 550px;
+    font-weight: bold;
+    line-height: 5;
+    }
+
+  .title_30
+    {
+      position: absolute;
+      top: 93px;
+      left: 650px;
+      line-height: 5;
+    }
+  .title_lokasi
+  {
+    position: absolute;
+    top: 113px;
+    left: 550px;
+    font-weight: bold;
+    line-height: 8;
+    }
+  .title_magelang
+  {
+    position: absolute;
+    top: 113px;
+    left: 650px;
+    line-height: 8;
+  }
+  .title_pengalaman
+  {
+    position: absolute;
+    top: 133px;
+    left: 550px;
+    font-weight: bold;
+    line-height: 11;
+    }
+  .title_3
+  {
+    position: absolute;
+    top: 133px;
+    left: 650px;
+    line-height: 11;
+  }
+.title_email
+{
+  position: absolute;
+  top: 153px;
+  left: 550px;
+  font-weight: bold;
+  line-height: 14;
+  }
+.title_email1
+{
+  position: absolute;
+  top: 153px;
+  left: 650px;
+  line-height: 14;
+}
+
+.title_submit
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 650px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+  
+    body {
+      background: #3498db;
+      font-family: sans-serif;
+    }
+     
+    h2 {
+      color: #fff;
+    }
+     
+    .dataDiri{
+      padding: 1em;
+      margin: 2em auto;
+      width: 17em;
+      background: #fff;
+      border-radius: 3px;
+    }
+     
+    label {
+      font-size: 10pt;
+      color: #555;
+    }
+     
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      padding: 8px;
+      width: 95%;
+      background: #efefef;
+      border: 0;
+      font-size: 10pt;
+      margin: 6px 0px;
+    }
+     
+    .tombol {
+      background: #3498db;
+      color: #fff;
+      border: 0;
+      padding: 5px 8px;
+    }
