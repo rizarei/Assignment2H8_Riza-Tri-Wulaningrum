@@ -60,7 +60,7 @@ ul {
     height: 150px;
     }
 
-  .title_availability
+  .titleAvailability
   {
   position: absolute;
   top: 73px;
@@ -69,7 +69,7 @@ ul {
   line-height: ;
   }
 
-  .title_usia
+  .titleUsia
   {
     position: absolute;
     top: 93px;
@@ -78,7 +78,7 @@ ul {
     line-height: 3;
     }
 
-  .title_lokasi
+  .titleLokasi
   {
     position: absolute;
     top: 113px;
@@ -87,7 +87,7 @@ ul {
     line-height: 5;
     }
 
-  .title_pengalaman
+  .titlePengalaman
   {
     position: absolute;
     top: 133px;
@@ -96,7 +96,7 @@ ul {
     line-height: 8;
     }
   
-.title_email
+.titleEmail
 {
   position: absolute;
   top: 153px;

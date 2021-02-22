@@ -11,22 +11,22 @@ var nama = document.getElementById("nama")
 var inputRole = document.getElementById("messagerole")
 var role = document.getElementById("role")
 var inputAvailability = document.getElementById("messageavailability")
-var availability = document.getElementById("availability")
+var titleAvailability = document.getElementById("titleAvailability")
 var inputUsia = document.getElementById("messageusia")
-var usia = document.getElementById("usia")
+var titleUsia = document.getElementById("titleUsia")
 var inputLokasi = document.getElementById("messagelokasi")
-var lokasi= document.getElementById("lokasi")
+var titleLokasi= document.getElementById("titleLokasi")
 var inputYearsexperience = document.getElementById("messageyearsexperience")
-var yearsexperience = document.getElementById("yearsexperience")
+var titleYearsexperience = document.getElementById("titleYearsexperience")
 var inputEmail = document.getElementById("messageemail")
-var email = document.getElementById("email")
+var titleEmail = document.getElementById("titleEmail")
 
 function saveMessage() {
-  nama.innerHTML = inputNama.value;
-  role.innerHTML = inputRole.value;
-  availability.innerHTML = inputAvailability.value;
-  usia.innerHTML = inputUsia.value;
-  lokasi.innerHTML = inputLokasi.value;
-  yearsexperience.innerHTML = inputYearsexperience.value;
-  email.innerHTML = inputEmail.value;
+  titleNama.innerHTML = inputNama.value;
+  titleRole.innerHTML = inputRole.value;
+  titleAvailability.innerHTML = "Availability: " + inputAvailability.value;
+  titleUsia.innerHTML = "Usia: " + inputUsia.value;
+  titleLokasi.innerHTML = "Lokasi: "+ inputLokasi.value;
+  titleYearsexperience.innerHTML = "Years Experience: " + inputYearsexperience.value;
+  titleEmail.innerHTML = "Email: " + inputEmail.value;
 }
